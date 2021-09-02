@@ -100,19 +100,19 @@ public:
 
 
 /**
-* Public/Private/Protected : function_name
+* Public : &operator
 * 
 * Description:
-*      Describe the functions purpose
+*      Prints what is in the queue.
 * 
 * Params:
-*      - list params
-*      - one per line
+*      ostream          :   
+*      CircularArrayQue :   
 *      - with return type
 *      - and one line description
 * 
 * Returns:
-*      - what does this function return (including the type)?
+*      ostream          :   
 */
 
 
