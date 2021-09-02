@@ -1,4 +1,6 @@
-/*******************************************************
+/******************************************************************************
+* THIS IS A WORK IN PROGRESS.
+*
 * Author:   Thor Lang
 * Email:    thorseph4@gmail.com
 * Label:    A04
@@ -7,37 +9,40 @@
 * Semester: Fall 2021
 *
 * Description:
-*   Apply proper comments to the source code Dr. Griffin provided, using the
+*   - Apply proper comments to the source code Dr. Griffin provided, using the
 *       proper structure and procedures listed in the Comments resource in his
 *       Resources repository. 
 * 
 * Usage:
-*   This assignment will serve as practice and another reference for future
+*   - This assignment will serve as practice and another reference for future
 *       assignments.
 *
 * Files:
 *           main.cpp    : driver program
-********************************************************/
+******************************************************************************/
 
 #include <iostream>
 
 using namespace std;
 
 /**
- * Class Name
+ * CircularArrayQue
  * 
  * Description:
- *      Description of your class and what it does
+ *      This class creates array queue that tracks its front and back.  It can
+ *          track its size, including letting the user know when it fills up,
+ *          be manually initialized as well as automatically initialized to a
+ *          size of 10, and loads into its rear while popping from the front.
  * 
  * Public Methods:
- *      - A list of 
- *      - each public method
- *      - with return types
+ *              CircularArrayQue()
+ *              CircularArrayQue(int size)
+ *      void    Push(int item)
+ *      int     Pop()
  * 
  * Private Methods:
- *      - A list of 
- *      - each private method
- *      - with return types
+ *      void    init(int size = 0)
+ *      bool    Full()
  * 
  * Usage: 
  * 
@@ -54,6 +59,7 @@ private:
     int Rear;
     int QueSize; // items in the queue
     int CurrentSize;
+
     void init(int size = 0) {
         Front = Rear = CurrentSize = 0;
         QueSize = size;
@@ -125,6 +131,7 @@ ostream &operator<<(ostream &os, const CircularArrayQue &other) {
  * For this program, the main driver was used to test the CircularArrayQue class
  * 
  */
+
 int main() {
     CircularArrayQue C1(5);
 
