@@ -1,0 +1,3 @@
+## Comment Diary
+- (25 Aug 2021) I'll be straightforward: it already seems like a pretty big hurdle learning this UI.  Still, it seems organized and streamlined, and so I'm looking forward to reaching the point where I can create and navigate through everything with ease.
+- (2 Sept 2021) Finally sat down and configured VSCode with GitHub to edit repos from VSCode rather than GitHub's website.  It's like heaven and Earth; this is so much better.  I'm pretty happy about Wednesday's tutorials, since I was looking in all the wrong places (and not asking the prof) about how to do things properly.  Glad my questions were answered, but caution to be more proactive with asking questions.
