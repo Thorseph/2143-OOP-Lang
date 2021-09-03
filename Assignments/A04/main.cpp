@@ -106,13 +106,12 @@ public:
 *      Prints what is in the queue.
 * 
 * Params:
-*      ostream          :   
-*      CircularArrayQue :   
-*      - with return type
-*      - and one line description
-* 
+*      ostream          :   one-line description
+*      CircularArrayQue :   one-line description
+*      
 * Returns:
-*      ostream          :   
+*      ostream          :   one-line description
+*
 */
 
 
